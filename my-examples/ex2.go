@@ -20,7 +20,7 @@ func (s *Student) DisplayInfo() {
 	fmt.Printf("Name: %s\nAge: %d\nID: %s\n", s.Name, s.Age, s.ID)
 }
 
-func main() {
+func main2() {
 
 	student := NewStudent("Zeliha Baysan", 20, "S12345")
 

@@ -13,7 +13,7 @@ func UpdatePerson(p *Person, newName string, newAge int) {
 	p.Age = newAge
 }
 
-func main() {
+func main1() {
 	person := Person{
 		Name: "zelis",
 		Age:  20,
